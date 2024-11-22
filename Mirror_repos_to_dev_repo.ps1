@@ -14,6 +14,7 @@ if (Test-Path -Path $DevRepoPath) {
 }
 
 $ClonedRepos = @(
+    "adlink-nic-update"
     "biab-provisioning"
     "site-controller-updates-provisioning"
     "windows-os-patching"
