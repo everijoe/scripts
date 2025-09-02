@@ -1,4 +1,4 @@
-$GitPath = "$env:USERPROFILE\OneDrive - Everi Payments, Inc\Documents\git"
+$GitPath = "C:\Everi\Application\git"
 $DevRepoPath = "O:\SystemEngineering"
 
 if (Test-Path -Path $GitPath) {
@@ -17,7 +17,9 @@ $ClonedRepos = @(
     "adlink-nic-update"
     "biab-provisioning"
     "site-controller-updates-provisioning"
-    "windows-os-patching"
+    "rtb41156_remote_vm_build"
+    "rtb41156-vm-provisioning"
+    "rtb-central-scripts"
 )
 
 $ClonedRepos | ForEach-Object {
